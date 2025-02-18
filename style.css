@@ -23,11 +23,11 @@ flex-direction: column;
 .feedback-text{
     padding: 0 16px;
 } 
-.qoute.green{
+.qoute-green{
    background-color: green;  
 }
 
-.qoute.pink{
+.quote.pink{
   background-color: pink;
 }
 
@@ -37,7 +37,7 @@ text-align: right;
 margin-bottom:0; 
 font-family: sans-serif; 
 } 
-.feedback-author.green{
+.feedback-author-green{
     color: green 
 }
  
