@@ -10,8 +10,9 @@ border: 1px solid rgb(128, 128, 128, 0.163);
 border-radius: 15px; 
 margin: 7px; 
 padding: 10px; 
-display: flex;
-flex-direction: column;  
+display: flex; 
+justify-content: space-between;
+    flex-direction: column;
 }
 .quote{
     display: inline-block;
@@ -23,10 +24,9 @@ flex-direction: column;
 .feedback-text{
     padding: 0 16px;
 } 
-.qoute-green{
-   background-color: green;  
-}
-
+.quote.green{
+   background-color: green;
+ }
 .quote.pink{
   background-color: pink;
 }
